@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/solid_trans/Transformations.h
+eigen3/Eigen/Core
+../include/solid_trans/eigen3/Eigen/Core
+
+/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/src/Transformations.cpp
+Transformations.h
+/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/src/Transformations.h
+
