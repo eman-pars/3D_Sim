@@ -66,20 +66,22 @@ $(function() {
 <div class="title">Transformations Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Returns 4x4 Trasnformation Matrix for basic rigid-body transformations.  
+ <a href="classTransformations.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="Transformations_8h_source.html">Transformations.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab1f9dc8128e3ecf9105fb538f9725ea8"><td class="memItemLeft" align="right" valign="top"><a id="ab1f9dc8128e3ecf9105fb538f9725ea8"></a>
-Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><b>reflect</b> (Eigen::Vector3f)</td></tr>
-<tr class="separator:ab1f9dc8128e3ecf9105fb538f9725ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a986ab195864427749bcba507a2d5fe58"><td class="memItemLeft" align="right" valign="top"><a id="a986ab195864427749bcba507a2d5fe58"></a>
-Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><b>reflectX</b> ()</td></tr>
+<tr class="memitem:a986ab195864427749bcba507a2d5fe58"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTransformations.html#a986ab195864427749bcba507a2d5fe58">reflectX</a> ()</td></tr>
+<tr class="memdesc:a986ab195864427749bcba507a2d5fe58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Transformation Matrix for reflecting about YZ plane.  <a href="#a986ab195864427749bcba507a2d5fe58">More...</a><br /></td></tr>
 <tr class="separator:a986ab195864427749bcba507a2d5fe58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ff59b80990ec879ed6d534dc620cee3"><td class="memItemLeft" align="right" valign="top"><a id="a3ff59b80990ec879ed6d534dc620cee3"></a>
-Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><b>reflectY</b> ()</td></tr>
+<tr class="memitem:a3ff59b80990ec879ed6d534dc620cee3"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTransformations.html#a3ff59b80990ec879ed6d534dc620cee3">reflectY</a> ()</td></tr>
+<tr class="memdesc:a3ff59b80990ec879ed6d534dc620cee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Transformation Matrix for reflecting about XZ plane.  <a href="#a3ff59b80990ec879ed6d534dc620cee3">More...</a><br /></td></tr>
 <tr class="separator:a3ff59b80990ec879ed6d534dc620cee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa74f1e98c9b69e368442c011d8cd046"><td class="memItemLeft" align="right" valign="top"><a id="afa74f1e98c9b69e368442c011d8cd046"></a>
-Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><b>reflectZ</b> ()</td></tr>
+<tr class="memitem:afa74f1e98c9b69e368442c011d8cd046"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTransformations.html#afa74f1e98c9b69e368442c011d8cd046">reflectZ</a> ()</td></tr>
+<tr class="memdesc:afa74f1e98c9b69e368442c011d8cd046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Transformation Matrix for reflecting about XY plane.  <a href="#afa74f1e98c9b69e368442c011d8cd046">More...</a><br /></td></tr>
 <tr class="separator:afa74f1e98c9b69e368442c011d8cd046"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d470736a0a55415259c9eea0bf8a2e0"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTransformations.html#a9d470736a0a55415259c9eea0bf8a2e0">rotate</a> (Eigen::Vector3f, double)</td></tr>
 <tr class="memdesc:a9d470736a0a55415259c9eea0bf8a2e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Transformation Matrix to rotate by 'angle' angles about 'axis' axis.  <a href="#a9d470736a0a55415259c9eea0bf8a2e0">More...</a><br /></td></tr>
@@ -93,21 +95,83 @@ Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><b>reflectZ</
 <tr class="memitem:af700b3a14795f2483e73dac667138907"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTransformations.html#af700b3a14795f2483e73dac667138907">rotateZ</a> (double)</td></tr>
 <tr class="memdesc:af700b3a14795f2483e73dac667138907"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Transformation Matrix for rotating about Z-axis by 'angle' angles.  <a href="#af700b3a14795f2483e73dac667138907">More...</a><br /></td></tr>
 <tr class="separator:af700b3a14795f2483e73dac667138907"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08b9bf1b52ccec63d34f44a21368edde"><td class="memItemLeft" align="right" valign="top"><a id="a08b9bf1b52ccec63d34f44a21368edde"></a>
-Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><b>translate</b> (Eigen::Vector3f)</td></tr>
-<tr class="separator:a08b9bf1b52ccec63d34f44a21368edde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0948151585af910e7bd2c6734ecf9d5b"><td class="memItemLeft" align="right" valign="top"><a id="a0948151585af910e7bd2c6734ecf9d5b"></a>
-Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><b>scaleAll</b> (const double)</td></tr>
+<tr class="memitem:a7b7212f21b4e71ea50526e8359d74929"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTransformations.html#a7b7212f21b4e71ea50526e8359d74929">translate</a> (Eigen::Vector3d)</td></tr>
+<tr class="memdesc:a7b7212f21b4e71ea50526e8359d74929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Transformation Matrix for translation.  <a href="#a7b7212f21b4e71ea50526e8359d74929">More...</a><br /></td></tr>
+<tr class="separator:a7b7212f21b4e71ea50526e8359d74929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0948151585af910e7bd2c6734ecf9d5b"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTransformations.html#a0948151585af910e7bd2c6734ecf9d5b">scaleAll</a> (const double)</td></tr>
+<tr class="memdesc:a0948151585af910e7bd2c6734ecf9d5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Transformation Matrix for Scaling of all dimensions.  <a href="#a0948151585af910e7bd2c6734ecf9d5b">More...</a><br /></td></tr>
 <tr class="separator:a0948151585af910e7bd2c6734ecf9d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43c9ba3fcb9d8fb440f3a686b8a99434"><td class="memItemLeft" align="right" valign="top"><a id="a43c9ba3fcb9d8fb440f3a686b8a99434"></a>
-Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><b>scale</b> (const double, const double, const double)</td></tr>
+<tr class="memitem:a43c9ba3fcb9d8fb440f3a686b8a99434"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTransformations.html#a43c9ba3fcb9d8fb440f3a686b8a99434">scale</a> (const double, const double, const double)</td></tr>
+<tr class="memdesc:a43c9ba3fcb9d8fb440f3a686b8a99434"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns Transformation Matrix for Scaling of dimensions along principal axes.  <a href="#a43c9ba3fcb9d8fb440f3a686b8a99434">More...</a><br /></td></tr>
 <tr class="separator:a43c9ba3fcb9d8fb440f3a686b8a99434"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dddecc6c02addaaa804e0c3ebb8163f"><td class="memItemLeft" align="right" valign="top"><a id="a3dddecc6c02addaaa804e0c3ebb8163f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTransformations.html#a3dddecc6c02addaaa804e0c3ebb8163f">Transformations</a> ()</td></tr>
-<tr class="memdesc:a3dddecc6c02addaaa804e0c3ebb8163f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classTransformations.html">Transformations</a>:: <a class="el" href="classTransformations.html">Transformations</a> object. <br /></td></tr>
+<tr class="memdesc:a3dddecc6c02addaaa804e0c3ebb8163f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="classTransformations.html" title="Returns 4x4 Trasnformation Matrix for basic rigid-body transformations. ">Transformations</a>:: <a class="el" href="classTransformations.html" title="Returns 4x4 Trasnformation Matrix for basic rigid-body transformations. ">Transformations</a> object. <br /></td></tr>
 <tr class="separator:a3dddecc6c02addaaa804e0c3ebb8163f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Returns 4x4 Trasnformation Matrix for basic rigid-body transformations. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a986ab195864427749bcba507a2d5fe58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a986ab195864427749bcba507a2d5fe58">&#9670;&nbsp;</a></span>reflectX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix4d Transformations::reflectX </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns Transformation Matrix for reflecting about YZ plane. </p>
+<dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix4d Required 4x4 Transformation Matrix. </dd></dl>
+
+</div>
+</div>
+<a id="a3ff59b80990ec879ed6d534dc620cee3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ff59b80990ec879ed6d534dc620cee3">&#9670;&nbsp;</a></span>reflectY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix4d Transformations::reflectY </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns Transformation Matrix for reflecting about XZ plane. </p>
+<dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix4d Required 4x4 Transformation Matrix. </dd></dl>
+
+</div>
+</div>
+<a id="afa74f1e98c9b69e368442c011d8cd046"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa74f1e98c9b69e368442c011d8cd046">&#9670;&nbsp;</a></span>reflectZ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix4d Transformations::reflectZ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns Transformation Matrix for reflecting about XY plane. </p>
+<dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix4d Required 4x4 Transformation Matrix. </dd></dl>
+
+</div>
+</div>
 <a id="a9d470736a0a55415259c9eea0bf8a2e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d470736a0a55415259c9eea0bf8a2e0">&#9670;&nbsp;</a></span>rotate()</h2>
 
@@ -227,9 +291,108 @@ Eigen::Matrix4d&#160;</td><td class="memItemRight" valign="bottom"><b>scale</b> 
 
 </div>
 </div>
+<a id="a43c9ba3fcb9d8fb440f3a686b8a99434"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43c9ba3fcb9d8fb440f3a686b8a99434">&#9670;&nbsp;</a></span>scale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix4d Transformations::scale </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>factorX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>factorY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>factorZ</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns Transformation Matrix for Scaling of dimensions along principal axes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">factorX</td><td>x-scaling </td></tr>
+    <tr><td class="paramname">factorY</td><td>y-scaling </td></tr>
+    <tr><td class="paramname">factorZ</td><td>z-scaling </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix4d Required 4x4 Transformation Matrix. </dd></dl>
+
+</div>
+</div>
+<a id="a0948151585af910e7bd2c6734ecf9d5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0948151585af910e7bd2c6734ecf9d5b">&#9670;&nbsp;</a></span>scaleAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix4d Transformations::scaleAll </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>factor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns Transformation Matrix for Scaling of all dimensions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">factor</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix4d Required 4x4 Transformation Matrix. </dd></dl>
+
+</div>
+</div>
+<a id="a7b7212f21b4e71ea50526e8359d74929"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b7212f21b4e71ea50526e8359d74929">&#9670;&nbsp;</a></span>translate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix4d Transformations::translate </td>
+          <td>(</td>
+          <td class="paramtype">Eigen::Vector3d&#160;</td>
+          <td class="paramname"><em>displacement</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns Transformation Matrix for translation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">displacement</td><td>in metres </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Eigen::Matrix4d Required 4x4 Transformation Matrix. </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/src/<a class="el" href="Transformations_8h_source.html">Transformations.h</a></li>
-<li>/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/src/<a class="el" href="Transformations_8cpp.html">Transformations.cpp</a></li>
+<li>src/transformations/<a class="el" href="Transformations_8h_source.html">Transformations.h</a></li>
+<li>src/transformations/<a class="el" href="Transformations_8cpp.html">Transformations.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
