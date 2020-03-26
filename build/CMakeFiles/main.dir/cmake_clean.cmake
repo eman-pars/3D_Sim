@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/solid_trans/main.cpp.o"
+  "CMakeFiles/main.dir/solid_trans/canvas.cpp.o"
   "main.pdb"
   "main"
 )

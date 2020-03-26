@@ -57,38 +57,38 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/solid_trans/main.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/solid_trans/main.cpp.o: ../solid_trans/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/solid_trans/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/solid_trans/main.cpp.o -c /home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/solid_trans/main.cpp
+CMakeFiles/main.dir/solid_trans/canvas.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/solid_trans/canvas.cpp.o: ../solid_trans/canvas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/solid_trans/canvas.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/solid_trans/canvas.cpp.o -c /home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/solid_trans/canvas.cpp
 
-CMakeFiles/main.dir/solid_trans/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/solid_trans/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/solid_trans/main.cpp > CMakeFiles/main.dir/solid_trans/main.cpp.i
+CMakeFiles/main.dir/solid_trans/canvas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/solid_trans/canvas.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/solid_trans/canvas.cpp > CMakeFiles/main.dir/solid_trans/canvas.cpp.i
 
-CMakeFiles/main.dir/solid_trans/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/solid_trans/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/solid_trans/main.cpp -o CMakeFiles/main.dir/solid_trans/main.cpp.s
+CMakeFiles/main.dir/solid_trans/canvas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/solid_trans/canvas.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/solid_trans/canvas.cpp -o CMakeFiles/main.dir/solid_trans/canvas.cpp.s
 
-CMakeFiles/main.dir/solid_trans/main.cpp.o.requires:
+CMakeFiles/main.dir/solid_trans/canvas.cpp.o.requires:
 
-.PHONY : CMakeFiles/main.dir/solid_trans/main.cpp.o.requires
+.PHONY : CMakeFiles/main.dir/solid_trans/canvas.cpp.o.requires
 
-CMakeFiles/main.dir/solid_trans/main.cpp.o.provides: CMakeFiles/main.dir/solid_trans/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/solid_trans/main.cpp.o.provides.build
-.PHONY : CMakeFiles/main.dir/solid_trans/main.cpp.o.provides
+CMakeFiles/main.dir/solid_trans/canvas.cpp.o.provides: CMakeFiles/main.dir/solid_trans/canvas.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/solid_trans/canvas.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/solid_trans/canvas.cpp.o.provides
 
-CMakeFiles/main.dir/solid_trans/main.cpp.o.provides.build: CMakeFiles/main.dir/solid_trans/main.cpp.o
+CMakeFiles/main.dir/solid_trans/canvas.cpp.o.provides.build: CMakeFiles/main.dir/solid_trans/canvas.cpp.o
 
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/solid_trans/main.cpp.o"
+"CMakeFiles/main.dir/solid_trans/canvas.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/solid_trans/main.cpp.o
+main: CMakeFiles/main.dir/solid_trans/canvas.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: /usr/local/lib/libopencv_stitching.so.3.4.7
 main: /usr/local/lib/libopencv_superres.so.3.4.7
@@ -118,6 +118,7 @@ main: /usr/local/lib/libopencv_xfeatures2d.so.3.4.7
 main: /usr/local/lib/libopencv_ximgproc.so.3.4.7
 main: /usr/local/lib/libopencv_xobjdetect.so.3.4.7
 main: /usr/local/lib/libopencv_xphoto.so.3.4.7
+main: libTransformations.a
 main: /usr/local/lib/libopencv_shape.so.3.4.7
 main: /usr/local/lib/libopencv_viz.so.3.4.7
 main: /usr/local/lib/libopencv_phase_unwrapping.so.3.4.7
@@ -146,7 +147,7 @@ CMakeFiles/main.dir/build: main
 
 .PHONY : CMakeFiles/main.dir/build
 
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/solid_trans/main.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/solid_trans/canvas.cpp.o.requires
 
 .PHONY : CMakeFiles/main.dir/requires
 

@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/solid_trans/main.cpp
+../include/solid_trans/Transformations.h
+eigen3/Eigen/Core
+../include/solid_trans/eigen3/Eigen/Core
+
+/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/solid_trans/canvas.cpp
 iostream
 -
 opencv2/core.hpp
@@ -17,6 +21,8 @@ opencv2/imgproc.hpp
 -
 opencv2/highgui.hpp
 -
+Transformations.h
+/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/solid_trans/Transformations.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h

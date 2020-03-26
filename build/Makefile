@@ -136,32 +136,32 @@ Transformations/fast:
 	$(MAKE) -f CMakeFiles/Transformations.dir/build.make CMakeFiles/Transformations.dir/build
 .PHONY : Transformations/fast
 
-solid_trans/main.o: solid_trans/main.cpp.o
+solid_trans/canvas.o: solid_trans/canvas.cpp.o
 
-.PHONY : solid_trans/main.o
+.PHONY : solid_trans/canvas.o
 
 # target to build an object file
-solid_trans/main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/solid_trans/main.cpp.o
-.PHONY : solid_trans/main.cpp.o
+solid_trans/canvas.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/solid_trans/canvas.cpp.o
+.PHONY : solid_trans/canvas.cpp.o
 
-solid_trans/main.i: solid_trans/main.cpp.i
+solid_trans/canvas.i: solid_trans/canvas.cpp.i
 
-.PHONY : solid_trans/main.i
+.PHONY : solid_trans/canvas.i
 
 # target to preprocess a source file
-solid_trans/main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/solid_trans/main.cpp.i
-.PHONY : solid_trans/main.cpp.i
+solid_trans/canvas.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/solid_trans/canvas.cpp.i
+.PHONY : solid_trans/canvas.cpp.i
 
-solid_trans/main.s: solid_trans/main.cpp.s
+solid_trans/canvas.s: solid_trans/canvas.cpp.s
 
-.PHONY : solid_trans/main.s
+.PHONY : solid_trans/canvas.s
 
 # target to generate assembly for a file
-solid_trans/main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/solid_trans/main.cpp.s
-.PHONY : solid_trans/main.cpp.s
+solid_trans/canvas.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/solid_trans/canvas.cpp.s
+.PHONY : solid_trans/canvas.cpp.s
 
 src/Transformations.o: src/Transformations.cpp.o
 
@@ -200,9 +200,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... main"
 	@echo "... Transformations"
-	@echo "... solid_trans/main.o"
-	@echo "... solid_trans/main.i"
-	@echo "... solid_trans/main.s"
+	@echo "... solid_trans/canvas.o"
+	@echo "... solid_trans/canvas.i"
+	@echo "... solid_trans/canvas.s"
 	@echo "... src/Transformations.o"
 	@echo "... src/Transformations.i"
 	@echo "... src/Transformations.s"
