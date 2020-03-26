@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['transformations',['transformations',['../classtransformations.html',1,'']]]
+  ['transformations',['Transformations',['../classTransformations.html',1,'']]]
 ];
