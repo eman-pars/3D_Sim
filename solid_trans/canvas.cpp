@@ -5,7 +5,8 @@
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>
 
-#include "Transformations.h"
+#include <solid_trans/Transformations.h>
+#include <solid_trans/ObjectUtil.cpp>
 
 double radians(double degrees) {
     return degrees / 180.0 * M_PI;
@@ -20,7 +21,7 @@ void setup_window(cv::Mat& canvas) {
 }
 
 
-void getImagePoints(Transformations Tr, Eigen::Matrix4Xd& vertices, cv::Point **corners, const int n) {
+void getImagePoints(Eigen::Matrix4Xd& vertices, cv::Point **corners, const int n) {
     if( n <= 0 ) return;
     if( corners == NULL ) return;
     for( int i = 0; i < n; i++ ) {
@@ -87,16 +88,19 @@ int main(int argc, char** argv) {
     cv::Mat canvas;
     setup_window(canvas);
 
-    Eigen::Matrix4Xd vertices;
+    Object *cube = createCube(0, 200);
+
     cv::Point *points[] = {NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL};
+    for( int i = 0; i < 8; i++ ) *(points + i) = new cv::Point(0, 0);
     //init_square(vertices, points);
-    init_cube(vertices, points);
+    //init_cube(vertices, points);
     //draw_lines(canvas, points, 4);
+    std::cout << cube->getVertices() << std::endl;
+    getImagePoints(cube->getVertices(), points, 8);
     draw_cube(canvas, points);
     cv::imshow("Canvas", canvas);
-
     Eigen::Matrix4d temp = Tr.translate(Eigen::Vector3d(0, 200, 500)) * Tr.rotateZ(radians(9)) * Tr.translate(Eigen::Vector3d(0, -200, -500));
-    vertices = Tr.translate(Eigen::Vector3d(0, 200, 0)) * vertices;
+    cube->getVertices() = Tr.translate(Eigen::Vector3d(0, 200, 0)) * cube->getVertices();
 
     int frames = 50;
     while(frames--) {
@@ -104,9 +108,9 @@ int main(int argc, char** argv) {
         // getImagePoints(Tr, vertices, points, 4);
         // vertices = Tr.translate(Eigen::Vector3d(-300, -300, 0)) * vertices;
         // draw_lines(canvas, points, 4);
-        camera_pass(vertices, points);
+        camera_pass(cube->getVertices(), points);
         draw_cube(canvas, points);
-        vertices = temp * vertices;
+        cube->getVertices() = temp * cube->getVertices();
         cv::putText(canvas, "Frame: ", cv::Point(0, 400), cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(0, 0, 255),2);
         cv::imshow("Canvas", canvas);
         canvas = cv::Scalar(255, 255, 255);

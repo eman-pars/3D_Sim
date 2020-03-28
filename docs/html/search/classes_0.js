@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['transformations',['Transformations',['../classTransformations.html',1,'']]]
+  ['edge',['Edge',['../structEdge.html',1,'']]]
 ];

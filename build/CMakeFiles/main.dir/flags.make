@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /usr/local/include -isystem /usr/local/include/opencv -I/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/include/solid_trans 
+CXX_INCLUDES = -isystem /usr/local/include -isystem /usr/local/include/opencv -I/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/include 
 

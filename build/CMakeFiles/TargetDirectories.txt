@@ -1,4 +1,5 @@
 /home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/build/CMakeFiles/rebuild_cache.dir
 /home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/build/CMakeFiles/edit_cache.dir
-/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/build/CMakeFiles/main.dir
 /home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/build/CMakeFiles/Transformations.dir
+/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/build/CMakeFiles/main.dir
+/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/build/CMakeFiles/Object.dir

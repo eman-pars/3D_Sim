@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Transformations
+
+# Build rule for target.
+Transformations: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Transformations
+.PHONY : Transformations
+
+# fast build rule for target.
+Transformations/fast:
+	$(MAKE) -f CMakeFiles/Transformations.dir/build.make CMakeFiles/Transformations.dir/build
+.PHONY : Transformations/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -124,17 +137,17 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Transformations
+# Target rules for targets named Object
 
 # Build rule for target.
-Transformations: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Transformations
-.PHONY : Transformations
+Object: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Object
+.PHONY : Object
 
 # fast build rule for target.
-Transformations/fast:
-	$(MAKE) -f CMakeFiles/Transformations.dir/build.make CMakeFiles/Transformations.dir/build
-.PHONY : Transformations/fast
+Object/fast:
+	$(MAKE) -f CMakeFiles/Object.dir/build.make CMakeFiles/Object.dir/build
+.PHONY : Object/fast
 
 solid_trans/canvas.o: solid_trans/canvas.cpp.o
 
@@ -162,6 +175,33 @@ solid_trans/canvas.s: solid_trans/canvas.cpp.s
 solid_trans/canvas.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/solid_trans/canvas.cpp.s
 .PHONY : solid_trans/canvas.cpp.s
+
+src/Object.o: src/Object.cpp.o
+
+.PHONY : src/Object.o
+
+# target to build an object file
+src/Object.cpp.o:
+	$(MAKE) -f CMakeFiles/Object.dir/build.make CMakeFiles/Object.dir/src/Object.cpp.o
+.PHONY : src/Object.cpp.o
+
+src/Object.i: src/Object.cpp.i
+
+.PHONY : src/Object.i
+
+# target to preprocess a source file
+src/Object.cpp.i:
+	$(MAKE) -f CMakeFiles/Object.dir/build.make CMakeFiles/Object.dir/src/Object.cpp.i
+.PHONY : src/Object.cpp.i
+
+src/Object.s: src/Object.cpp.s
+
+.PHONY : src/Object.s
+
+# target to generate assembly for a file
+src/Object.cpp.s:
+	$(MAKE) -f CMakeFiles/Object.dir/build.make CMakeFiles/Object.dir/src/Object.cpp.s
+.PHONY : src/Object.cpp.s
 
 src/Transformations.o: src/Transformations.cpp.o
 
@@ -198,11 +238,15 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... main"
 	@echo "... Transformations"
+	@echo "... main"
+	@echo "... Object"
 	@echo "... solid_trans/canvas.o"
 	@echo "... solid_trans/canvas.i"
 	@echo "... solid_trans/canvas.s"
+	@echo "... src/Object.o"
+	@echo "... src/Object.i"
+	@echo "... src/Object.s"
 	@echo "... src/Transformations.o"
 	@echo "... src/Transformations.i"
 	@echo "... src/Transformations.s"

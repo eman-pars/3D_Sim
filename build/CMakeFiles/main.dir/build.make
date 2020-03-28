@@ -119,6 +119,7 @@ main: /usr/local/lib/libopencv_ximgproc.so.3.4.7
 main: /usr/local/lib/libopencv_xobjdetect.so.3.4.7
 main: /usr/local/lib/libopencv_xphoto.so.3.4.7
 main: libTransformations.a
+main: libObject.a
 main: /usr/local/lib/libopencv_shape.so.3.4.7
 main: /usr/local/lib/libopencv_viz.so.3.4.7
 main: /usr/local/lib/libopencv_phase_unwrapping.so.3.4.7

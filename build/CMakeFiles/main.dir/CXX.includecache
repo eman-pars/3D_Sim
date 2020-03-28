@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+../include/solid_trans/Object.h
+eigen3/Eigen/Core
+-
+vector
+-
+
+../include/solid_trans/ObjectUtil.cpp
+vector
+-
+solid_trans/Object.h
+-
+
 ../include/solid_trans/Transformations.h
 eigen3/Eigen/Core
 ../include/solid_trans/eigen3/Eigen/Core
@@ -21,8 +33,10 @@ opencv2/imgproc.hpp
 -
 opencv2/highgui.hpp
 -
-Transformations.h
-/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/solid_trans/Transformations.h
+solid_trans/Transformations.h
+-
+solid_trans/ObjectUtil.cpp
+-
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h

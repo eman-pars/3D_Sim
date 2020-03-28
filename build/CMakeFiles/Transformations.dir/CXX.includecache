@@ -11,6 +11,6 @@ eigen3/Eigen/Core
 ../include/solid_trans/eigen3/Eigen/Core
 
 /home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/src/Transformations.cpp
-Transformations.h
-/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/src/Transformations.h
+solid_trans/Transformations.h
+-
 

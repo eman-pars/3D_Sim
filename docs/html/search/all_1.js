@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['scale',['scale',['../classTransformations.html#a43c9ba3fcb9d8fb440f3a686b8a99434',1,'Transformations']]],
-  ['scaleall',['scaleAll',['../classTransformations.html#a0948151585af910e7bd2c6734ecf9d5b',1,'Transformations']]]
+  ['edge',['Edge',['../structEdge.html',1,'Edge'],['../structEdge.html#a1e3224e7462780a5e96b4739d87b193a',1,'Edge::Edge()']]]
 ];

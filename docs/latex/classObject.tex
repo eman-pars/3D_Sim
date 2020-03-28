@@ -1,0 +1,81 @@
+\hypertarget{classObject}{}\section{Object Class Reference}
+\label{classObject}\index{Object@{Object}}
+
+
+Represents on solid object with vertices, edges and faces.  
+
+
+
+
+{\ttfamily \#include $<$Object.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classObject_a606dc79aaae91cea45c7b4c4a6af973f}{set\+Vertices} (Eigen\+::\+Matrix4\+Xd \&)
+\begin{DoxyCompactList}\small\item\em Sets the veritices of solid. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classObject_ac6bded42fb5326ef81de129c8c6a9ca7}\label{classObject_ac6bded42fb5326ef81de129c8c6a9ca7}} 
+Eigen\+::\+Matrix4\+Xd \& {\bfseries get\+Vertices} ()
+\item 
+\mbox{\Hypertarget{classObject_a92f15222e80786de290523f8fbfda175}\label{classObject_a92f15222e80786de290523f8fbfda175}} 
+void {\bfseries add\+Edge} (\hyperlink{structEdge}{Edge} $\ast$)
+\item 
+\mbox{\Hypertarget{classObject_ac4732f37b71495e90e299f36197dad88}\label{classObject_ac4732f37b71495e90e299f36197dad88}} 
+void {\bfseries add\+Face} (\hyperlink{structFace}{Face} $\ast$)
+\item 
+\hyperlink{classObject_aa75a6e58bf6f58476c7c527e753da1b7}{Object} (const unsigned int, unsigned int, unsigned int, unsigned int)
+\begin{DoxyCompactList}\small\item\em Construct a new \hyperlink{classObject}{Object}\+:\+: \hyperlink{classObject}{Object} object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classObject_ae8f5483f459e46687bd01e6f9977afd3}\label{classObject_ae8f5483f459e46687bd01e6f9977afd3}} 
+\hyperlink{classObject_ae8f5483f459e46687bd01e6f9977afd3}{$\sim$\+Object} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \hyperlink{classObject}{Object}\+:\+: \hyperlink{classObject}{Object} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represents on solid object with vertices, edges and faces. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classObject_aa75a6e58bf6f58476c7c527e753da1b7}\label{classObject_aa75a6e58bf6f58476c7c527e753da1b7}} 
+\index{Object@{Object}!Object@{Object}}
+\index{Object@{Object}!Object@{Object}}
+\subsubsection{\texorpdfstring{Object()}{Object()}}
+{\footnotesize\ttfamily Object\+::\+Object (\begin{DoxyParamCaption}\item[{const unsigned int}]{iden,  }\item[{unsigned int}]{v\+Count,  }\item[{unsigned int}]{e\+Count,  }\item[{unsigned int}]{f\+Count }\end{DoxyParamCaption})}
+
+
+
+Construct a new \hyperlink{classObject}{Object}\+:\+: \hyperlink{classObject}{Object} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iden} & Identifier \\
+\hline
+{\em v\+Count} & Number of Vertices in the object. \\
+\hline
+{\em e\+Count} & Number of Edges in the object. \\
+\hline
+{\em f\+Count} & Number of Faces in the object. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classObject_a606dc79aaae91cea45c7b4c4a6af973f}\label{classObject_a606dc79aaae91cea45c7b4c4a6af973f}} 
+\index{Object@{Object}!set\+Vertices@{set\+Vertices}}
+\index{set\+Vertices@{set\+Vertices}!Object@{Object}}
+\subsubsection{\texorpdfstring{set\+Vertices()}{setVertices()}}
+{\footnotesize\ttfamily void Object\+::set\+Vertices (\begin{DoxyParamCaption}\item[{Eigen\+::\+Matrix4\+Xd \&}]{verti }\end{DoxyParamCaption})}
+
+
+
+Sets the veritices of solid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em verti} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/solid\+\_\+trans/\hyperlink{Object_8h}{Object.\+h}\item 
+src/Object.\+cpp\end{DoxyCompactItemize}

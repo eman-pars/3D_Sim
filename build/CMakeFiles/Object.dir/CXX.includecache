@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/solid_trans/Object.h
+eigen3/Eigen/Core
+-
+vector
+-
+
+/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/src/Object.cpp
+solid_trans/Object.h
+-
+

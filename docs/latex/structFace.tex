@@ -1,0 +1,91 @@
+\hypertarget{structFace}{}\section{Face Struct Reference}
+\label{structFace}\index{Face@{Face}}
+
+
+Represents a face of an object using the edges that make it up.  
+
+
+
+
+{\ttfamily \#include $<$Object.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structFace_af63f8976d1835512afc86f7211112b65}{Face} (unsigned int)
+\begin{DoxyCompactList}\small\item\em Construct a new \hyperlink{structFace}{Face}\+:\+: \hyperlink{structFace}{Face} object. \end{DoxyCompactList}\item 
+\hyperlink{structFace_af66f3b634d0899385a9f9235134f64aa}{Face} (unsigned int, std\+::vector$<$ unsigned int $>$)
+\begin{DoxyCompactList}\small\item\em Construct a new \hyperlink{structFace}{Face}\+:\+: \hyperlink{structFace}{Face} object. \end{DoxyCompactList}\item 
+void \hyperlink{structFace_a8922fa75e52752067106a191c74da79c}{add\+Edges} (std\+::vector$<$ unsigned int $>$)
+\begin{DoxyCompactList}\small\item\em Adds the edges of the face. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structFace_a9d7aa6e0a49d8fc2077e2be1f13e0f6c}\label{structFace_a9d7aa6e0a49d8fc2077e2be1f13e0f6c}} 
+const unsigned int {\bfseries max\+Edge}
+\item 
+\mbox{\Hypertarget{structFace_aa1f7b0c514a042444c76029c4e01c939}\label{structFace_aa1f7b0c514a042444c76029c4e01c939}} 
+unsigned int $\ast$ {\bfseries edges}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represents a face of an object using the edges that make it up. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{structFace_af63f8976d1835512afc86f7211112b65}\label{structFace_af63f8976d1835512afc86f7211112b65}} 
+\index{Face@{Face}!Face@{Face}}
+\index{Face@{Face}!Face@{Face}}
+\subsubsection{\texorpdfstring{Face()}{Face()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Face\+::\+Face (\begin{DoxyParamCaption}\item[{unsigned int}]{n }\end{DoxyParamCaption})}
+
+
+
+Construct a new \hyperlink{structFace}{Face}\+:\+: \hyperlink{structFace}{Face} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Number of Edges making the face. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{structFace_af66f3b634d0899385a9f9235134f64aa}\label{structFace_af66f3b634d0899385a9f9235134f64aa}} 
+\index{Face@{Face}!Face@{Face}}
+\index{Face@{Face}!Face@{Face}}
+\subsubsection{\texorpdfstring{Face()}{Face()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Face\+::\+Face (\begin{DoxyParamCaption}\item[{unsigned int}]{n,  }\item[{std\+::vector$<$ unsigned int $>$}]{e }\end{DoxyParamCaption})}
+
+
+
+Construct a new \hyperlink{structFace}{Face}\+:\+: \hyperlink{structFace}{Face} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Number of Edges making the face. \\
+\hline
+{\em e} & Indices of edges. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{structFace_a8922fa75e52752067106a191c74da79c}\label{structFace_a8922fa75e52752067106a191c74da79c}} 
+\index{Face@{Face}!add\+Edges@{add\+Edges}}
+\index{add\+Edges@{add\+Edges}!Face@{Face}}
+\subsubsection{\texorpdfstring{add\+Edges()}{addEdges()}}
+{\footnotesize\ttfamily void Face\+::add\+Edges (\begin{DoxyParamCaption}\item[{std\+::vector$<$ unsigned int $>$}]{e }\end{DoxyParamCaption})}
+
+
+
+Adds the edges of the face. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & Indices of edges. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/solid\+\_\+trans/\hyperlink{Object_8h}{Object.\+h}\item 
+src/Object.\+cpp\end{DoxyCompactItemize}

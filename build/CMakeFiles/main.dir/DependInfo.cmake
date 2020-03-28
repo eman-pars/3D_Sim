@@ -12,12 +12,13 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include"
   "/usr/local/include/opencv"
-  "../include/solid_trans"
+  "../include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/build/CMakeFiles/Transformations.dir/DependInfo.cmake"
+  "/home/baahy/Documents/Courses/Semester_8/ME608/projects/solid_trans/build/CMakeFiles/Object.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
