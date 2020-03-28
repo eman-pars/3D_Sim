@@ -1,6 +1,6 @@
 /**
  * @file Object.h
- * @author Abhay Pratap Singh (you@domain.com)
+ * @author Abhay Pratap Singh ()
  * @brief Defines classes, structs to represent simple solid objects .
  * @version 0.1
  * @date 2020-03-27

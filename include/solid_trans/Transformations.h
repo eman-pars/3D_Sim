@@ -1,6 +1,6 @@
 /**
  * @file Transformations.h
- * @author Abhay Pratap Singh (you@domain.com)
+ * @author Abhay Pratap Singh ()
  * @brief Defines Transformations class for performing rigid-body transformations.
  * @version 0.1
  * @date 2020-03-26

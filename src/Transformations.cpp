@@ -1,6 +1,6 @@
 /**
  * @file Transformations.cpp
- * @author Abhay Pratap Singh (you@domain.com)
+ * @author Abhay Pratap Singh ()
  * @brief implements Transformations.h
  * @version 0.1
  * @date 2020-03-26
